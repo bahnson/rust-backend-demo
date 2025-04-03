@@ -1,0 +1,11 @@
+# comment
+[package]
+name = "rust-backend-demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.3"
+serde = { version = "1.0.219", features = ["derive"] }
+sqlx = { version = "0.8.3" , features = ["postgres", "runtime-tokio"] }
+tokio = { version = "1.44.1", features = ["rt-multi-thread"] }
