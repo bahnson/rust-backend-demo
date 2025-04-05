@@ -15,6 +15,9 @@ Small Demo
 - in a WSL-Terminal, run:
   - `sudo apt install postgresql-client-16`
   - `cd scripts && ./start-db.sh`
+- Open RustRover
+- Create new Cargo project and set working directory to where you cloned the repo
+- 
 - in RustRover:
   - build and start app
   - open `src/test/test_requests.http` and run requests
