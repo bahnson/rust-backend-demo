@@ -22,10 +22,11 @@ The code uses:
 ## Run
 
 - open RustRover
-- File > New > Project.. > Rust, set location to where you cloned the repository
-- add a run configuration, choose Cargo, set environment variables to `DATABASE_URL=postgres://postgres:password@localhost/postgres`
+- File > New > Project.. > Rust, set location to where you cloned the repository,  confirm to create from existing sources
+- wait for cargo project to synchronize, can take minutes, see progress in build tab
+- edit the run configuration `Run rust-backend-demo`, set environment variables to `DATABASE_URL=postgres://postgres:password@localhost/postgres`
 - click the play button
-- first run takes minutes due to cargo sync and compiling, consecutive runs are faster due to incremental compilation :)
+- first run takes minutes for compiling, consecutive runs are much faster
 - test app
   - open `http://localhost:8080/users` in Browser
   - or open `src/test/http_requests.http` in RustRover and edit and run requests from the IDE
