@@ -23,6 +23,7 @@ The code uses:
 
 - open RustRover
 - File > New > Project.. > Rust, set location to where you cloned the repository
+- add a run configuration, choose Cargo, set environment variables to `DATABASE_URL=postgres://postgres:password@localhost/postgres`
 - click the play button
 - first run takes minutes due to cargo sync and compiling, consecutive runs are faster due to incremental compilation :)
 - test app
