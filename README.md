@@ -1,4 +1,4 @@
-# Demo-App in Rust
+# rust-backend-demo
 
 Small Demo showcasing api server development using [Rust](https://www.rust-lang.org/) and [RustRover IDE](https://www.jetbrains.com/de-de/rust/).
 
