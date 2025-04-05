@@ -29,7 +29,7 @@ The code uses:
 - first run takes minutes for compiling, consecutive runs are much faster
 - test app
   - open `http://localhost:8080/users` in Browser
-  - or open `src/test/http_requests.http` in RustRover and edit and run requests from the IDE
+  - or open `test/http_requests.http` in RustRover and edit and run requests from the IDE
   - browse db using the IDE's database tab
     - URL: `jdbc:postgresql://localhost:5432/postgres`
     - password `password`
