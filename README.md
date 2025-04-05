@@ -33,3 +33,6 @@ The code uses:
   - browse db using the IDE's database tab
     - URL: `jdbc:postgresql://localhost:5432/postgres`
     - password `password`
+
+## TODO
+- add unit-tests, GPT prompt `context rust, axum. how can I unit-test my api?`
