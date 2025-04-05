@@ -1,6 +1,6 @@
 # app wide cargo config, overwrite for packages if needed
 [build]
-incremental = true #
+incremental = true
 
 [profile.dev]
-opt-level = 1  # Light optimization for faster builds
+opt-level = 1
